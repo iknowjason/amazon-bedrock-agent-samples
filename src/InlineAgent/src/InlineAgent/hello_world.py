@@ -26,7 +26,7 @@ def main():
 from bedrock_agents.agent import InlineAgent
 
 InlineAgent(
-    foundationModel="us.anthropic.claude-3-5-haiku-20241022-v1:0",
+    foundationModel="us.anthropic.claude-3-5-sonnet-20241022-v2:0",
     instruction="You are a friendly assistant that is supposed to say hello to everything.",
     userInput=True,
     agentName="hello-world-agent",
